@@ -72,7 +72,7 @@ function getAllData() {
 //-------------------------------//
 //          Using jQuery
 //-------------------------------//
-// 3. Write a function called removeCourse will remove a course from the web page, this function will accept a number as input and will remove that course if it was shown in the webpage and return the course with index X was removed successfully, otherwise it will return sorry we didn't find that course.
+// 4. Write a function called removeCourse will remove a course from the web page, this function will accept a number as input and will remove that course if it was shown in the webpage and return the course with index X was removed successfully, otherwise it will return sorry we didn't find that course.
 
 function removeCourse(index) {
 
@@ -80,3 +80,27 @@ function removeCourse(index) {
 
 removeCourse(5); // "Course with index 5 was removed successfully "
 removeCourse(100); // "Sorry! We didn't find that course."
+
+// 5. Write a function called addCourse that accepts a object with keys (title, image, desc). This will  add a course to the web page.
+function addCourse(obj) {
+
+}
+
+addCourse({ name: 'React Native', image: 'image12.jpg', desc: 'Learn How to Develop a Native apps' });
+
+//-------------------------------//
+//     Searching Functionality
+//-------------------------------//
+
+// 6. Write a function called getCourseByName that accept a string as parameter and will return an object which represent the data for that course. If the course is not exist, print "Course is not found!" in the console.
+
+function getCourseByName() {
+
+}
+
+getCourseByName('BackBone');    // Course is not found!
+getCourseByName('Cloud GURU');  // {
+//     title: 'Cloud GURU',
+//     image: 'image1.jpg',
+//     desc: 'Become Cloud GURU',
+//   };
